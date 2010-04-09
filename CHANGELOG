@@ -1,3 +1,7 @@
+#### April 9, 2010
+
+* Changed cache directory to RAILS_ROOT/tmp because heroku's read only file system only allows writing to the tmp folder
+
 #### September 15, 2008
 
 * use URI#request_uri to include URI parameters
